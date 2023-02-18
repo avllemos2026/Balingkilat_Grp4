@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre&family=Fontdiner+Swanky&family=Londrina+Solid&display=swap" rel="stylesheet">
+    <style>
+        #txtWord {
+            border-radius: 25px;
+            border: solid 3px rgb(217, 148, 148) ;
+            background-color: rgb(246, 190, 190);
+            height: 100px;
+            padding: 20px;
+            font-size: 50px;
+            font-family: 'Londrina Solid', cursive;
+        }
+        .list-group-item{
+            background-color: rgb(203, 229, 255);
+            border: solid 2px rgb(153, 174, 218);
+            padding: 10px;
+            font-size: 30px;
+            font-family: 'Londrina Solid', cursive;
+        }
+        .btn {
+            font-family: 'Averia Libre', cursive;
+            font-size: 30px;
+        }
+        .chck{
+            background-color: rgb(170, 252, 192);
+            outline:solid 1.5px rgb(134, 220, 173);
+        }
+        .clr{
+            background-color: rgb(252, 170, 170);
+            outline:solid 1.5px rgb(220, 134, 134);
+        }
+        #lttrO {
+            background-color: rgb(226, 170, 252);
+            outline:solid 1.5px rgb(201, 134, 220);
+        }
+        #lttrS {
+            background-color: rgb(226, 170, 252);
+            outline:solid 1.5px rgb(201, 134, 220);
+        }
+        #lttrE {
+            background-color: rgb(226, 170, 252);
+            outline:solid 1.5px rgb(201, 134, 220);
+        }
+        #lttrR {
+            background-color: rgb(226, 170, 252);
+            outline:solid 1.5px rgb(201, 134, 220);
+        }
+        #lttrP {
+            background-color: rgb(226, 170, 252);
+            outline:solid 1.5px rgb(201, 134, 220);
+        }
+        body{
+            background-image:url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148912432.jpg?w=2000);
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            margin: 50px;
+        }
+    </style>
+    <script>
+        
+        function addToList(w) {
+            document.getElementById("listOfWord").innerHTML += "<li class='list-group-item' onclick='showItem(event)'>" + w + "</li>";
+        }
+        function showItem(event) {
+            alert(event.target.innerHTML);
+        }
+        function clear() {
+            var w = document.getElementById("txtWord").value;
+            document.getElementById("txtWord").value = "";
+            document.getElementById("lttrO").disabled = false;
+            document.getElementById("lttrS").disabled = false;
+            document.getElementById("lttrE").disabled = false;
+            document.getElementById("lttrR").disabled = false;
+            document.getElementById("lttrP").disabled = false;
+        }
+        function btnPress() {
+            var w = document.getElementById("txtWord").value;
+            
+            if (w == "PROSE") {
+                addToList(w);
+                clear();
+            } else if (w == "POSER") {
+                addToList(w);
+                clear();
+            } else if (w == "PORES") {
+                addToList(w);
+                clear();
+            } else if (w == "REPOS") {
+                addToList(w);
+                clear();
+            } else if (w == "ROPES") {
+                addToList(w);
+                clear();
+            } else if (w == "SPORE") {
+                addToList(w);
+                clear();
+            } else if (w == "ROSE") {
+                addToList(w);
+                clear();
+            } else if (w == "POSE") {
+                addToList(w);
+                clear();
+            } else if (w == "EPOS") {
+                addToList(w);
+                clear();
+            } else if (w == "OPES") {
+                addToList(w);
+                clear();
+            } else if (w == "PESO") {
+                addToList(w);
+                clear();
+            } else if (w == "PORE") {
+                addToList(w);
+                clear();
+            } else if (w == "PROS") {
+                addToList(w);
+                clear();
+            } else if (w == "REPO") {
+                addToList(w);
+                clear();
+            } else if (w == "REPS") {
+                addToList(w);
+                clear();
+            } else if (w == "ROPE") {
+                addToList(w);
+                clear();
+            } else if (w == "EROS") {
+                addToList(w);
+                clear();
+            } else if (w == "ORES") {
+                addToList(w);
+                clear();
+            } else if (w == "ROES") {
+                addToList(w);
+                clear();
+            } else if (w == "SORE") {
+                addToList(w);
+                clear();
+            } else if (w == "OPE") {
+                addToList(w);
+                clear();
+            } else if (w == "OPS") {
+                addToList(w);
+                clear();
+            } else if (w == "PER") {
+                addToList(w);
+                clear();
+            } else if (w == "PES") {
+                addToList(w);
+                clear();
+            } else if (w == "POS") {
+                addToList(w);
+                clear();
+            } else if (w == "PRE") {
+                addToList(w);
+                clear();
+            } else if (w == "PRO") {
+                addToList(w);
+                clear();
+            } else if (w == "REP") {
+                addToList(w);
+                clear();
+            } else if (w == "SOP") {
+                addToList(w);
+                clear();
+            } else if (w == "ERS") {
+                addToList(w);
+                clear();
+            } else if (w == "OER") {
+                addToList(w);
+                clear();
+            } else if (w == "OES") {
+                addToList(w);
+                clear();
+            } else if (w == "ORE") {
+                addToList(w);
+                clear();
+            } else if (w == "ORS") {
+                addToList(w);
+                clear();
+            } else if (w == "OSE") {
+                addToList(w);
+                clear();
+            } else if (w == "REO") {
+                addToList(w);
+                clear();
+            } else if (w == "RES") {
+                addToList(w);
+                clear();
+            } else if (w == "ROE") {
+                addToList(w);
+                clear();
+            } else if (w == "SER") {
+                addToList(w);
+                clear();
+            } else if (w == "OP") {
+                addToList(w);
+                clear();
+            } else if (w == "PE") {
+                addToList(w);
+                clear();
+            } else if (w == "PO") {
+                addToList(w);
+                clear();
+            } else if (w == "EO") {
+                addToList(w);
+                clear();
+            } else if (w == "ER") {
+                addToList(w);
+                clear();
+            } else if (w == "ES") {
+                addToList(w);
+                clear();
+            } else if (w == "OE") {
+                addToList(w);
+                clear();
+            } else if (w == "OR") {
+                addToList(w);
+                clear();
+            } else if (w == "OS") {
+                addToList(w);
+                clear();
+            } else if (w == "RE") {
+                addToList(w);
+                clear();
+            } else if (w == "SO") {
+                addToList(w);
+                clear();
+            } else{
+                clear();
+            }
+
+            document.getElementById("lttrO").disabled = false;
+            document.getElementById("lttrS").disabled = false;
+            document.getElementById("lttrE").disabled = false;
+            document.getElementById("lttrR").disabled = false;
+            document.getElementById("lttrP").disabled = false;
+
+        }
+        function lo() {
+            document.getElementById("txtWord").value += "O";
+            document.getElementById("lttrO").disabled = true;
+        }
+        function ls() {
+            document.getElementById("txtWord").value += "S";
+            document.getElementById("lttrS").disabled = true;
+        }
+        function le() {
+            document.getElementById("txtWord").value += "E";
+            document.getElementById("lttrE").disabled = true;
+        }
+        function lr() {
+            document.getElementById("txtWord").value += "R";
+            document.getElementById("lttrR").disabled = true;
+        }
+        function lp() {
+            document.getElementById("txtWord").value += "P";
+            document.getElementById("lttrP").disabled = true;
+        }
+
+    </script>
+</head>
+<body class="container">
+    <h1 onclick="showItem(event)" style="font-family: 'Averia Libre', cursive;">WORDSCAPES</h1>
+    <h2 onclick="showItem(event)" style="font-family: 'Averia Libre', cursive;">How many words can you assemble?</h2>
+    <input type="text" class="form-control" id="txtWord">
+    <div class="mb-3">
+        <br>
+        <button class="btn" id="lttrO" onclick="lo()">O</button>
+        <button class="btn" id="lttrS" onclick="ls()">S</button>
+        <button class="btn" id="lttrE" onclick="le()">E</button>
+        <button class="btn" id="lttrR" onclick="lr()">R</button>
+        <button class="btn" id="lttrP" onclick="lp()">P</button>
+        <br><br>
+        <button class="btn chck" onclick="btnPress()">Check</button>
+        <button class="btn clr" onclick="btnPress()">Clear</button>
+      </div>
+    <ul id="listOfWord" class="list-group">
+        
+    </ul>
+</body>
+</html>
