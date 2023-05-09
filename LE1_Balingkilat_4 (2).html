@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AristoCats</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Noto+Serif&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .transparencysis {
+          color:transparent !important;
+        }
+        img {
+          border-radius: 50%;
+          height: 100px;
+          width: 100px;
+        }
+        body {
+          background-image: url(https://i.imgur.com/SyAe5kd.png);
+          background-size: cover;
+        }
+        h1 {
+            color:rgb(7, 7, 7) !important;
+            font-family: 'Londrina Solid', cursive;
+            font-size: 50px;
+        }
+        h4 {
+            color:rgba(0, 0, 0, 0.521) !important;
+            font-family: 'Noto Serif', serif;
+            font-size: 20px;
+        }
+        footer {
+          position: fixed;
+        }
+        .button {
+          border-radius: 50px;
+          background-color: #f4511e;
+          border: none;
+          color: #FFFFFF;
+          background-image: linear-gradient(to right, #c7ccde, #cf92b0);
+          font-size: 20px;
+          font-family: 'Noto Serif', serif;
+          padding: 10px;
+          width: 200px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        .button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        .button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        .button:hover span {
+          padding-right: 25px;
+        }
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        form {
+          font-family: 'Quicksand', sans-serif;
+          padding: 20px; 
+          border-radius: 3% !important;
+          border-width: 4px !important;
+          border-color: white !important;
+          border-style: dashed;
+          background-color: #fce1e5 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-1">
+            <span class="transparencysis">catmepw</span>
+          </div>
+          <div class="col-sm-5">
+            <span class="transparencysis">kjdsfh</span>
+          </div>
+          <div class="col-sm-4">
+            <span class="transparencysis">Column</span>
+          </div>
+          <div class="col-sm-1">
+            <span class="transparencysis">eepycat</span>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1">
+              <span class="transparencysis">catmepw</span>
+            </div>
+            <div class="col-sm-5">
+              <p class="transparencysis">as</p>
+              <p class="transparencysis">asdsda</p>
+              <p class="transparencysis">asdasdfs</p>
+              <p class="transparencysis">asfasfwefe</p>
+              <p class="transparencysis">asdassafwfqfqwfwq</p>
+              <h1>Ladies do not start fights, but they can finish them!</h1>
+              <h4>Join <i>the AristoCats</i> now!</h4>
+              <input type="submit" class="button" form="fform" value="sign up now!">
+              <p class="transparencysis">h</p>
+              <p class="transparencysis">kjadf</p>
+              <p class="transparencysis">pawsome</p>
+              <p class="transparencysis">reask</p>
+            </div>
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-4">
+              <p class="transparencysis">reask</p>
+              <form id="fform" action="http://sirjm.infinityfreeapp.com/aa1receiver.php" class="form-control">
+                <b><label for="name">Student Name:</label></b><br>
+                <input class="form-control" type="text" id="name" name="studname" placeholder="e.g. Marie Kitty">
+                <b><label for="email">Email Address:</label></b><br>
+                <input class="form-control" type="text" id="email" name="emailadd" placeholder="e.g. mkitty2026@clc.pshs.edu.ph">
+                <div class="form-check" id="umm">
+                    <input class="form-check-input" type="radio" name="biosex" id="f" value="Female">
+                    <label class="form-check-label" for="f">
+                        Female              
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="biosex" id="m" value="Male">
+                    <label class="form-check-label" for="m">
+                        Male              
+                    </label>
+                </div>
+                <div class="mb-3">
+                    <b><label for="select">Incoming Grade Level</label></b>
+                    <select class="form-select" name="gradelevel" id="select">
+                        <option value="default">Choose...</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                  <p class="form-label"><b>Why are you joining?</b></p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="catsFr" name="reason[]" value="CatEnthusiast">
+                    <label for="catsFr" class="form-check-label"> I am a cat enthusiast.</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="wantCatCuddle" name="reason[]" value="CatHaver">
+                    <label for="wantCatCuddle" class="form-check-label">I have/am planning to get a pet cat.</label><br>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="clubActivities" name="reason[]" value="Friends">
+                    <label for="clubActivities" class="form-check-label">My friends are in this club.</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-1">
+              <span class="transparencysis">eepycat</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <div class="d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img class="bi me-2" src="https://i.imgur.com/HZWg1TL.png" alt="logo">
+          </a>
+          <span class="text-muted">&copy; Llemos, Mancao, Peralta</span>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>
